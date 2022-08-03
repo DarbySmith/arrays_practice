@@ -8,6 +8,9 @@ puts dog_breeds.shift
 # Index postion example (shows position 2, which is Rottweiler)
 puts dog_breeds[2]
 
+# New array method 'insert' will add an item at the specified position in the array
+puts dog_breeds.insert(1, "Great Dane")
+
 
 # INTEGERS
 
